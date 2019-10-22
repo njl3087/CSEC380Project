@@ -1,8 +1,8 @@
 version: '3'
 
 services: 
-  web:
+  web: 
     image: apache 
     build: ./web
     ports:
-    - "80:80"
+       - "80:80"
